@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+.home{
+    background-image: url(../img/477973067.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* .container{
+    margin-top: 8%;
+} */
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
